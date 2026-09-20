@@ -1,0 +1,47 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Application runtime data
+backend/data/uploads/
+backend/data/faiss_index/
+
+# DeepEval local data/cache
+.deepeval/
+backend/.deepeval/
+
+# Logs
+*.log
+logs/
+
+# Build / coverage
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Docker local overrides
+docker-compose.override.yml

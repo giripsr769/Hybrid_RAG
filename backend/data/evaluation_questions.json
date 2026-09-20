@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "What does Next.js use?",
+        "answerable": true
+    },
+    {
+        "id": 2,
+        "question": "What database is used for relational data?",
+        "answerable": true
+    },
+    {
+        "id": 3,
+        "question": "What is the overall architecture described in this document?",
+        "answerable": true
+    },
+    {
+        "id": 4,
+        "question": "What does the Playback Service manage?",
+        "answerable": true
+    },
+    {
+        "id": 5,
+        "question": "Who is the CEO of this company?",
+        "answerable": false
+    }
+]
